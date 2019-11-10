@@ -6,8 +6,7 @@ describe 'Navbar' do
 
     click_on('little_shop')
     expect(current_path).to eq('/')
-    click_on('little_shop')
-    expect(current_path).to eq('/')
-
+    click_on('Items')
+    expect(current_path).to eq('/items')
   end
 end
