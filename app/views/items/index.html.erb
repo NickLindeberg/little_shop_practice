@@ -1,0 +1,11 @@
+<% @items.each do |i| %>
+<ul>
+  <li><%= i.name %></li>
+  <li><%= i.description %></li>
+  <li><%= i.price.round(2) %></li>
+  <li><%= i.image %></li>
+  <li><%= i.inventory.round(2) %></li>
+</ul>
+
+
+<% end %>
