@@ -9,7 +9,7 @@ gem 'sass-rails', '~> 5'
 gem 'webpacker', '~> 4.0'
 gem 'jbuilder', '~> 2.7'
 gem "loofah", ">= 2.3.1"
-gem 'nokogiri', '~> 1.10', '>= 1.10.5'
+gem 'nokogiri', '~> 1.11'
 gem 'bootstrap', '~> 4.3.1'
 
 gem 'bootsnap', '>= 1.4.2', require: false
